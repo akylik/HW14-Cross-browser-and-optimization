@@ -36,7 +36,7 @@ body {
 }
 .loaded #cube-loader {
    display: none;
- }
+}
 #cube-loader .caption {
    margin: 0 auto;
 }
@@ -384,7 +384,7 @@ button {
 }
 
 .about .description {
-   width: 35%;
+   width: 32%;
    display: inline-block;
    vertical-align: top;
 }
@@ -402,7 +402,7 @@ button {
 }
 
 .about .description:nth-child(2) {
-   padding-left: 50px;
+   /* padding-left: 50px; */
 }
 
 .about .description:last-child {
@@ -452,39 +452,61 @@ button {
 }
 
 .reasons .reason .square {
-   text-align: center;
    height: 70px;
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-orient: vertical;
-   -webkit-box-direction: normal;
-   -ms-flex-direction: column;
-   flex-direction: column;
-   -webkit-box-pack: center;
-   -ms-flex-pack: center;
-   justify-content: center;
 }
-
-.reasons .reason .square img {
-   width: 45px;
-   height: auto;
+.bg-reason1 {
+   background: url(../img/css_sprites.png) 0 0 no-repeat;
    display: block;
-   margin: 0 auto;
+   height: 70px;
+   width: 100%;
+   background-position: 50% 15px;
 }
-
-.reasons .reason .square img.width60 {
-   width: 60px;
+.bg-reason2 {
+   background: url(../img/css_sprites.png) 0 0 no-repeat;
+   display: block;
+   height: 70px;
+   width: 100%;
+   background-position: 50% -47px;
 }
-
-.reasons .reason .square img.width35 {
-   width: 35px;
+.bg-reason3 {
+   background: url(../img/css_sprites.png) 0 0 no-repeat;
+   display: block;
+   height: 70px;
+   width: 100%;
+   background-position: 55% -270px;
+}
+.bg-reason4 {
+   background: url(../img/css_sprites.png) 0 0 no-repeat;
+   display: block;
+   height: 70px;
+   width: 100%;
+   background-position: 55% -120px;
+}
+.bg-adv1 {
+   background: url(../img/css_sprites.png) 0 0 no-repeat;
+   display: block;
+   height: 70px;
+   width: 100%;
+   background-position: 50% -345px;
+}
+.bg-adv2 {
+   background: url(../img/css_sprites.png) 0 0 no-repeat;
+   display: block;
+   height: 70px;
+   width: 100%;
+   background-position: 50% -425px;
+}
+.bg-adv3 {
+   background: url(../img/css_sprites.png) 0 0 no-repeat;
+   display: block;
+   height: 70px;
+   width: 100%;
+   background-position: 50% -187px;
 }
 
 .video {
    margin-top: 30px;
 }
-
 .video .h2 {
    margin-bottom: 50px;
 }
